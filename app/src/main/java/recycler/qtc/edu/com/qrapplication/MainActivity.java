@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         intView();
+        Toast.makeText(this, "提交了", Toast.LENGTH_SHORT).show();
     }
 
     private void intView() {
